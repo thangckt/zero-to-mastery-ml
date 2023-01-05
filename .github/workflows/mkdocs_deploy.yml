@@ -36,6 +36,7 @@ jobs:
           cp section-3-structured-data-projects/*.md  docs/section-3-structured-data-projects/
           cp section-4-unstructured-data-projects/*.ipynb  docs/section-4-unstructured-data-projects/
           cp section-4-unstructured-data-projects/*.md  docs/section-4-unstructured-data-projects/
+          cp README.md docs/
 
 
       - name: MkDocs gh-deploy    # This will create `gh-pages` branch contain `mkdocs-site`
