@@ -24,6 +24,7 @@ jobs:
         run: |
           pip install git+https://github.com/thangckt/mkdocs-material.git@master
           pip install mkdocs-jupyter
+          pip install pillow cairosvg
           # pip install mkdocs-enumerate-headings-plugin # mkdocs-jupyter
 
 
