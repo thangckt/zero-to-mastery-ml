@@ -116,9 +116,8 @@ extra_css:
 nav:
   - Home: README.md
   - 1. Getting Ready for ML:
-    - section-1-getting-ready-for-machine-learning/a-6-step-framework-for-approaching-machine-learning-projects.md
-  - 2. Data Science and ML tools:
-    - "section-2-data-science-and-ml-tools/README.md"
+    - A 6-step Framework: section-1-getting-ready-for-machine-learning/a-6-step-framework-for-approaching-machine-learning-projects.md
+  - 2. Data Science and ML tools: section-2-data-science-and-ml-tools/README.md
     - section-2-data-science-and-ml-tools/introduction-to-numpy.ipynb
     - section-2-data-science-and-ml-tools/introduction-to-pandas.ipynb
 
