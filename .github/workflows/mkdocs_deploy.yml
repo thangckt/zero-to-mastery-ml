@@ -27,15 +27,15 @@ jobs:
           # pip install mkdocs-enumerate-headings-plugin # mkdocs-jupyter
 
 
-      - name: Copy files to folder /docs
-        run: |
-          cp section-1-getting-ready-for-machine-learning/*.md  docs/section-1-getting-ready-for-machine-learning/
-          cp section-2-data-science-and-ml-tools/*.ipynb  docs/section-2-data-science-and-ml-tools/
-          cp section-2-data-science-and-ml-tools/*.md  docs/section-2-data-science-and-ml-tools/
-          cp section-3-structured-data-projects/*.ipynb  docs/section-3-structured-data-projects/
-          cp section-3-structured-data-projects/*.md  docs/section-3-structured-data-projects/
-          cp section-4-unstructured-data-projects/*.ipynb  docs/section-4-unstructured-data-projects/
-          cp section-4-unstructured-data-projects/*.md  docs/section-4-unstructured-data-projects/
+      # - name: Copy files to folder /docs
+      #   run: |
+      #     cp section-1-getting-ready-for-machine-learning/*.md  docs/section-1-getting-ready-for-machine-learning/
+      #     cp section-2-data-science-and-ml-tools/*.ipynb  docs/section-2-data-science-and-ml-tools/
+      #     cp section-2-data-science-and-ml-tools/*.md  docs/section-2-data-science-and-ml-tools/
+      #     cp section-3-structured-data-projects/*.ipynb  docs/section-3-structured-data-projects/
+      #     cp section-3-structured-data-projects/*.md  docs/section-3-structured-data-projects/
+      #     cp section-4-unstructured-data-projects/*.ipynb  docs/section-4-unstructured-data-projects/
+      #     cp section-4-unstructured-data-projects/*.md  docs/section-4-unstructured-data-projects/
 
 
       - name: MkDocs gh-deploy    # This will create `gh-pages` branch contain `mkdocs-site`
