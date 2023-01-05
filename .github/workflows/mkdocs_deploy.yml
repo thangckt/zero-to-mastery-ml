@@ -4,7 +4,7 @@ name: gh-deploy
 on:
   push:
     branches:
-      - main
+      - master
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -18,7 +18,7 @@ jobs:
       - name: Set up Python 3
         uses: actions/setup-python@v4
         with:
-          python-version: 3.10
+          python-version: '3.10'
 
       - name: Install dependencies  # mkdocs-jupyter can cause broken in tabs-header
         run: |
