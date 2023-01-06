@@ -20,7 +20,7 @@ theme:
   highlightjs: true
   features:
     - content.code.annotate
-    # - navigation.expand
+    - navigation.expand
     # - navigation.sections
     - navigation.indexes
     # - navigation.instant
